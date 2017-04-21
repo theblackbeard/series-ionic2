@@ -1,0 +1,36 @@
+"-KhyGo4k7Bqux0n6DJsd" : {
+      "title" : "iZombie",
+      "cover" : "http://www.dccomics.com/sites/default/files/Marquee_iZombie_550772f603dc95.54749361.jpg",
+      "category": "Fantasia",
+      "seasons" : [
+         {
+           "episodes" : [
+              {
+                  "name": "Pilot",
+                  "description": "Esposidio no qual se faz um piloto",
+                  "status": false
+              },
+              {
+                  "name": "Second",
+                  "description": "Eposidio segundo tal",
+                  "status": false
+              }  
+           ]
+         },
+            {
+           "episodes" : [
+              {
+                  "name": "Dois",
+                  "description": "Esposidio da senga temporada",
+                  "status": false
+              },
+              {
+                  "name": "Second",
+                  "description": "Eposidio segundo tal",
+                  "status": false
+              }  
+           ]
+         }
+      ]
+    }
+  }

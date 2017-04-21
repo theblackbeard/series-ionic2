@@ -1,0 +1,44 @@
+<ion-header>
+  <ion-navbar color="primary">
+    <ion-title>
+        {{serie.title}}
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-card>
+  <img src="{{serie.cover}}"/>
+  <ion-card-content>
+    <ion-card-title class="mt-card-title">
+      {{serie.title}}<small>{{serie.category}}</small>
+    </ion-card-title>
+  </ion-card-content>
+</ion-card>
+<ion-card>
+   <ion-list>
+        <ion-item>
+            <ion-note item-left>Episodios</ion-note>
+        </ion-item>
+    </ion-list>  
+</ion-card>
+<ion-card *ngFor="let season of serie.seasons; let i = index">
+  <ion-list >
+    <ion-list-header class="mt-header">
+        {{i+1}}° Temporada
+  </ion-list-header>
+    <ion-item *ngFor="let episode of season.episodes; let x = index">
+       <p>
+      <ion-badge>{{x+1}}</ion-badge>
+       {{episode.name}}
+      </p>
+      
+      <button (click)="changeStatus(serie)" ion-button clear icon-only item-right>
+        <ion-icon name="ios-eye-outline"></ion-icon>
+      </button>
+     
+      
+    </ion-item>
+  </ion-list>
+</ion-card>
+</ion-content>    

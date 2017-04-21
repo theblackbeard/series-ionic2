@@ -1,0 +1,40 @@
+{
+  "teste" :     
+    {
+    "-KhyGo4k7Bqux0n6DJvd" : {
+      "title" : "Arrow",
+      "cover" : "http://tvseriesfinale.com/wp-content/uploads/2016/06/season-4-of-arrow-airs-on-october-7-on-the-590x332.jpg",
+      "category": "Fantasia",
+      "seasons" : [
+         {
+           "episodes" : [
+              {
+                  "name": "Pilot",
+                  "description": "Esposidio no qual se faz um piloto",
+                  "status": false
+              },
+              {
+                  "name": "Second",
+                  "description": "Eposidio segundo tal",
+                  "status": false
+              }  
+           ]
+         },
+            {
+           "episodes" : [
+              {
+                  "name": "Dois",
+                  "description": "Esposidio da senga temporada",
+                  "status": false
+              },
+              {
+                  "name": "Second",
+                  "description": "Eposidio segundo tal",
+                  "status": false
+              }  
+           ]
+         }
+      ]
+    }
+  }
+}

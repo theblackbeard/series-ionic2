@@ -1,0 +1,21 @@
+<ion-header>
+  <ion-navbar color="danger">
+    <ion-title>
+      Seriados
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+
+<ion-list *ngFor="let serie of series">
+  <ion-item>
+    <ion-avatar item-left>
+     <img src="{{serie.cover}}"/>
+    </ion-avatar>
+    <h2 class="mt-title">{{serie.title}}</h2>
+     <h3 class="mt-category">{{serie.category}}</h3>
+      <button ion-button light item-right (click)="viewSerie(serie)">Olhar</button>
+  </ion-item>
+</ion-list>
